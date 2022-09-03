@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 mongoose
   .connect(
-    "mongodb+srv://sadonemsi_:pasjR8ZjNAwvJxB2@assignment.eh2we.mongodb.net/?retryWrites=true&w=majority",
+    "mongo-url-here",
     {}
   )
   .then(() => console.log("DB Connected"))
